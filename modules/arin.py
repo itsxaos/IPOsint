@@ -8,7 +8,7 @@ class Arin():
 	"""docstring for Whois"""
 	def __init__(self, options):
 		self.options = options
-		core.print_banner("Starting scrapping IP from Arin")
+		core.print_banner("Starting scraping IP from Arin")
 		self.initial()
 
 	def initial(self):
